@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/illustrations/nut-1.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font embed code from Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Memory Game</title>
+</head>
+<body>
+    <header>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <nav class="navigation">
+            <img src="images/illustrations/mumsi-logo.png" alt="MUMSI logo" id="logo">
+            <!-- convert logo to home page link -->
+            <!-- addition of logo is remaining -->
+            <div class="links_navigation">
+                <div>
+                    <a href="index.html" class = "nav_link">
+                        <!-- add icons and refine alt text for the same -->
+                        <img src="images/icons/home_white.svg" alt="home with door">
+                        <p>Home</p>
+                    </a>
+                </div>
+                <!-- Reference for dropdown structure
+                https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+                <div class="dropdown active">
+                    <!-- aria has pop-up: helps determine if it is a menu that opens up and is interactive -->
+                    <button class="dropbtn nav_link"  aria-haspopup="true" aria-expanded="false">
+                        <img src="images/icons/stadia_controller_white.svg" alt="gaming console">
+                        Playground
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="xn0.html">X and O</a>
+                      <a href="memorygame.html">Memory Game</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="memorygame" id="main">
+      <h1 class="heading-1">Memorise and match the same cards</h1>
+        <p>The cards that are matched cards stay flipped. Any unmatched cards are flipped back. After you win by matching all pairs, the game is reset and you can play again!</p>
+        <div class="container">
+            <div class="cards">
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/leaf.png" alt="green leaf">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/nut.png" alt="acorn nut">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/Mumsi-holding-nut.png" alt="squirrel holding a nut">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi_walking.jpg" alt="a squirrel walking">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi-headset.png" alt="squirrel wearing a virtual reality headset">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi_sleeping.jpg" alt="squirrel sleeping on leaves">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi-headset.png" alt="squirrel wearing a virtual reality headset">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi_sleeping.jpg" alt="squirrel sleeping on leaves">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/leaf.png" alt="green leaf">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/nut.png" alt="acorn nut">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/Mumsi-holding-nut.png" alt="squirrel holding a nut">
+                </div>
+              </div>
+              <div class="card" tabindex="0" aria-label="Memory Card Front">
+                <div class="view front-view">
+                  <img src="images/icons/que_icon.svg" alt="question mark">
+                </div>
+                <div class="view back-view" aria-hidden="true">
+                  <img src="images/illustrations-solid/mumsi_walking.jpg" alt="a squirrel walking">
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer><p>&copy; <span id="year"></span> All rights reserved.</p></footer>
+    <script src="js/memory.js"></script>
+</body>
+</html>
